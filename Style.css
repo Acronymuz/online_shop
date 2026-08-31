@@ -1,0 +1,239 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+.css-button {
+	color: #000000;
+	font-size: 16px;
+	border-radius: 5px;
+	border: solid 1px #fff;
+	text-shadow: 1px 1px 0px #ffffff;
+	box-shadow: inset 1px 1px 0px 0px #8c8e8f;
+	text-decoration: none;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-family: Arial;
+	background: linear-gradient(180deg, #ffffff 10%, #575757 100%);
+	display: inline-flex;
+	align-items: center;
+	padding: 0;
+	box-shadow: 
+	0 0 3px #fff,
+    0 0 6px #fff,
+    0 0 9px #fff;
+}
+.css-button:hover {
+	background: linear-gradient(180deg, #575757 10%, #ffffff 100%);
+	box-shadow: 
+	0 0 15px #fff,
+    0 0 25px #fff,
+    0 0 35px #fff;
+    transition: box-shadow 0.8s;
+}
+.css-button-text {
+	position: relative;
+	padding: 10px 18px;
+}
+.css-button-icon {
+	position: relative;
+	border-right: 1px solid #ffffff29;
+	box-shadow: inset rgb(0 0 0 / 14%) -1px 0 0;
+	padding: 10px 10px;
+}
+																				/*Shortcut-Button*/
+.Button {
+	box-shadow:
+	0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff;
+	background:linear-gradient(to bottom, #ededed 5%, #696869 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #04050f;
+}
+.Button:hover {
+	background:linear-gradient(to bottom, #696869 5%, #ededed 100%);
+	background-color:#000;
+	box-shadow: 
+	0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 30px #fff;
+    transition: box-shadow 0.3s;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+.Gila {
+		color: white;
+		text-align: center; 
+	}
+.Gila:hover {
+		text-shadow: 
+		0 0 5px #fff,
+		0 0 10px #fff,
+		0 0 15px #fff;
+}
+.WA {
+		box-shadow: 
+		inset 0 0 5px #00FF00,
+		inset 0 0 10px #00FF00, 
+		inset 0 0 15px #00FF00,
+		0 0 5px #00FF00,
+		0 0 10px #00FF00, 
+		0 0 15px #00FF00;
+	}
+	.WA:hover {
+		box-shadow: 
+		0 0 10px #00FF00,
+		0 0 20px #00FF00, 
+		0 0 30px #00FF00,
+		inset 0 0 5px #00FF00,
+		inset 0 0 15px #00FF00;
+	}
+	.IG {
+		box-shadow: 
+		inset 0 0 5px #A020F0,
+		inset 0 0 10px #A020F0, 
+		inset 0 0 15px #A020F0,
+		0 0 5px #A020F0,
+		0 0 10px #A020F0, 
+		0 0 15px #A020F0;
+	}
+	.IG:hover {
+		box-shadow: 
+		0 0 10px #A020F0,
+		0 0 20px #A020F0, 
+		0 0 30px #A020F0,
+		inset 0 0 5px #A020F0,
+		inset 0 0 15px #A020F0;
+	}
+	        .flicker-text {
+            font-size: 2em;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            text-shadow: 
+            0 0 5px #fff,
+            0 0 10px #fff,
+            0 0 20px #fff;
+            background-color: transparent;
+        }
+
+        @keyframes flicker {
+            0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+                opacity: 1;
+            }
+            20%, 24%, 55% {
+                opacity: 0.5;
+            }
+            22%, 53% {
+                opacity: 0.25;
+            }
+        }
+        .flicker-text {
+            animation: flicker 5s infinite;
+        }
+@keyframes slide-in-fwd-top {
+  0% {
+    -webkit-transform: translateZ(-1400px) translateY(-800px);
+            transform: translateZ(-1400px) translateY(-800px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+.slide-in-fwd-top {
+	-webkit-animation: slide-in-fwd-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-fwd-top 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-bck-tl {
+  0% {
+    -webkit-transform: translateZ(700px) translateY(-300px) translateX(-400px);
+            transform: translateZ(700px) translateY(-300px) translateX(-400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0) translateX(0);
+            transform: translateZ(0) translateY(0) translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in-bck-tl {
+	-webkit-animation: slide-in-bck-tl 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-tl 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-bck-left {
+  0% {
+    -webkit-transform: translateZ(700px) translateX(-400px);
+            transform: translateZ(700px) translateX(-400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateX(0);
+            transform: translateZ(0) translateX(0);
+    opacity: 1;
+  }
+}
+.slide-in-bck-left {
+	-webkit-animation: slide-in-bck-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-left 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-bck-bottom {
+  0% {
+    -webkit-transform: translateZ(700px) translateY(300px);
+            transform: translateZ(700px) translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+.slide-in-bck-bottom {
+	-webkit-animation: slide-in-bck-bottom 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-bottom 4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-bck-top {
+  0% {
+    -webkit-transform: translateZ(700px) translateY(-300px);
+            transform: translateZ(700px) translateY(-300px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+.slide-in-bck-top {
+	-webkit-animation: slide-in-bck-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bck-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
